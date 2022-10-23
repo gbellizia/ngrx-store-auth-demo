@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap');
+
+html, body {
+  font-family: 'Poppins';
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.title-card {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px 0 rgb(100 128 160 / 10%);
+  border-radius: 16px;
+  padding: 17px;
+  margin-bottom: 1rem;
+  h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: left;
+    color: #020a41;
+    margin-bottom: 0;
+  }
+}
+
+.ngx-dropdown-container button {
+  border: 1px solid #ced4da !important;
+}
+
+.ngx-dropdown-container button .nsdicon-angle-down {
+  right: -4px !important;
+}
+
+.ngx-dropdown-container button .nsdicon-angle-down::before {
+  border-width: .15em .15em 0 0 !important;
+  height: 7px !important;
+  width: 7px !important;
+  top: 7px !important;
+}
+
+.ngx-dropdown-container .ngx-dropdown-list-container ul.selected-items li {
+  background-color: #92a6bc !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #020a41;
+  border-color: #020a41;
+  box-shadow: none;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #15216b;
+  border-color: #15216b;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #020a41;
+  border-color: #020a41;
+  box-shadow: 0 0 0 0 #020a4175;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #020a41;
+  border-color: #020a41;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #15216b;
+  border-color: #15216b;
+}
+

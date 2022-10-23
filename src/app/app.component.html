@@ -1,0 +1,16 @@
+<div class="wrapper">
+
+  <h2>NGRX STORE - AUTH DEMO</h2>
+  <div *ngIf="isAuthenticated$ | async as isAuthenticated">
+    <div class="row justify-content-md-center" *ngIf="selectUserInfo$ | async as userInfo">
+      <div class="col-md-8 welcome-card">
+        <h3>Welcome, {{ userInfo.name }} {{ userInfo.surname}} !</h3>
+        <div>Your role is "{{ userInfo.roles[0]}}"</div>        
+        <hr>
+        <button (click)="logout()">Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <router-outlet></router-outlet>
+</div>

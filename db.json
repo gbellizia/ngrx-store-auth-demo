@@ -1,0 +1,14 @@
+{
+  "authenticate": {
+    "expire": 133096673505180110,
+    "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJidXNpbmVzcy1yZWFkIjoiVHJ1ZSIsImJ1c2luZXNzLXdyaXRlIjoiVHJ1ZSIsIm5hbWUiOiJBZG1pbiBVc2VyIiwicGVybWlzc2lvbnMiOlsiYnVzaW5lc3Mtd3JpdGUiLCJidXNpbmVzcy1yZWFkIl0sInN1YiI6ImFkbWluIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkFkbWluIFVzZXIiLCJleHAiOjE2NjUxOTM3NDksImlzcyI6Imh0dHA6Ly9pZGVtLmludHJhbmV0Lmxhbi8iLCJhdWQiOiJodHRwOi8vaWRlbS5pbnRyYW5ldC5sYW4vIn0.eX_K_4Tsn58obqyxROPcusLqu10hDfuj81dHnN2rsW7o4Rf8mIT2lUSIkS5YEcOvWSW7Doaq54S8WeXlxIgCrV4EORTg8c8Cb3MQI0t3II4l7Fx5y2qLroZZSEnA6jGta60w9p3sKeVVhhRwDPoom99N91mdfxeYrGashOgJlOulSVFYNHMH7lmL96ivzJxQVm-3D54j0muAzDvwEX-hudH0QeSLRACiD4SqfkjphR6qh7d5qJjkV5LwwC-kmD-7EkqtbRpxRB5-0l2bXZdljlTF8xoGjvd3SofWWBSbl1aBL5uJLuIaZjggoESHBf_3ff1mPNOMEmQ0-zGMOS8h-A",
+    "profile": {
+      "id": 3455055,
+      "name": "mario",
+      "surname": "rossi",
+      "roles": [
+        "test"
+      ]
+    }
+  }
+}
